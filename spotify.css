@@ -1,0 +1,464 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sectionA
+{
+    height: 16vh;
+    background-color:black;
+}
+.sectionA article
+{
+    margin: 0 auto;
+    height: 13vh;
+    /* background-color: aqua; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+svg{
+    fill:rgb(243, 240, 240);
+    height: 7vh;
+    margin-top: 15px;
+    
+
+   
+}
+.sectionA article ul
+{
+    display: flex;
+    list-style: none ;
+    /* font-weight:; */
+    font-size: 17px;
+    color: #fff;
+
+}
+.sectionA article ul li
+{
+    padding-left: 10px;
+}
+#line
+{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    margin-left: 6px;
+    padding-left: 1px;
+    opacity: 20px;
+    opacity: 1px;
+}
+.sectionA article ul li:hover 
+{
+    color:greenyellow ;
+}
+.sectionB
+{
+    height: 100vh;
+    background-color: rgb(131, 4, 131);
+   
+
+    
+}
+.sectionB .text
+{
+    padding: 100px 90px;
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    font-weight: 900;
+    font-size: 13px; 
+    
+}
+.sectionB .text h5
+{
+    font-weight: bolder;
+}
+.sectionB .text1
+{
+     font-weight: 900;
+    font-size:60px ; 
+    padding-left: 90px;
+    width: 900px;
+    height: 10px;
+    /* background-color: blue; */
+    color: #fff;
+    display: flex;
+    justify-content: left;
+}
+.sectionB .text2
+{
+    padding-top: 180px;
+    padding-left:90px ;
+    font-size: 23px;
+    width:700px ;
+    color: #fff;
+    /* padding: 2px; */
+}
+.sectionB .text3
+{
+    padding-left:90px ;
+    padding-top: 50px;
+    
+}
+
+
+
+.sectionB .text3 button
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    font-weight: 800;
+
+}
+.sectionB .text3 button:hover
+{
+    transform: scale(1.05);
+}
+.image2 img
+{
+    float: right;
+    width: 400px;
+    height: 500px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    /* margin-bottom: 50px; */
+}
+.sectionB .text4
+{
+    font-size: 13px;
+    padding-left: 90px;
+    padding-top: 40px;
+    width: 750px;
+    color: #fff;
+}
+.sectionB .text4 a
+{
+    color: #fff;
+}
+.sectionC
+{
+    height: 80vh;
+    background-color: rgb(41, 65, 171);
+    width: 100%;
+   
+    /* background-image: url(https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* display: flex; */
+    /* background-image: url('https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg'); 
+    background-size:100%;
+    background-repeat: repeat; */
+}
+.sectionC .img3
+{
+    height: 80vh;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-size: cover;
+}   
+
+
+/* .sectionC .img3
+{
+    
+    /* height: 80vh; */
+    /* width: 100%; */
+    /* padding-left: 90px; */
+    /* background-color: aqua;*/
+     /* background-size: cover;  */
+    
+                                              
+/* .sectionC .img3
+{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://content-tooling.spotifycdn.com/images/1d2242b4-f071-4244-a276-3bcdc58e77cf_lie_circles-tablet.svg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+} */
+.sectionC .text5
+{
+    padding: 100px 90px;
+    color: #1ed760;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    font-weight: 900;
+    font-size: 13px; 
+}
+.sectionC .text6
+{
+    font-weight: 900;
+    font-size:60px ; 
+    padding-left: 90px;
+    width: 900px;
+    height: 10px;
+    /* background-color: blue; */
+    color:#1ed760;
+    display: flex;
+    justify-content: left;
+}
+.sectionC .text7
+{
+    
+    padding-top: 100px;
+    padding-left:90px ;
+    font-size: 23px;
+    width:600px ;
+    color: #1ed760;
+
+}
+.sectionC .button
+{
+    padding-left:90px ;
+    padding-top: 50px;
+}
+.sectionC .button button
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    background-color:#1ed760;
+    color: #fff;
+    border: 1px solid #1ed760;
+    font-weight: 800;
+}
+.sectionC .button button:hover
+{
+    transform: scale(1.1);
+}
+.sectionD
+{
+    background-color: black;
+    height: 100vh;
+    padding-left: 90px;
+    padding-top:60px;
+    /* display: flex; */
+}
+.sectionD .top1
+{
+    height: 60vh;
+    
+    display: flex;
+    /* background-color: #1ed760; */
+}
+.sectionD .image4
+{
+    width: 10px;
+    height: 10px;
+    
+    
+}
+.sectionD .text8
+{
+    color: #fff;
+    padding-left: 200px;
+    padding-top: 35px;
+    font-size: 15px;
+    
+}
+/* ,#font,.sectionD .text9,#font2,.sectionD .text10,#font3:hover
+{
+    color: #1ed760;
+} */
+/* .sectionD .text8:hover
+{
+    color: #1ed760;
+} */
+.sectionD .text8 ul
+{
+    list-style: none;
+    /* padding-bottom: 20px; */
+}
+#font
+{
+    font-size: 13px;
+    color: rgb(177, 174, 174);
+}
+.sectionD .text8 ul li
+{
+    padding-top: 30px;
+    
+    
+}
+.sectionD .text8 ul li:hover
+{
+    color: #1ed760;
+}
+.sectionD .text9
+{
+    color: #fff;
+    padding-left: 130px;
+    padding-top: 35px;
+    font-size: 15px;
+    
+}
+.sectionD .text9 ul
+{
+    list-style: none;
+}
+.sectionD .text9 ul li
+{
+    padding-top: 30px;
+    
+    
+}
+.sectionD .text9 ul li:hover
+{
+    color: #1ed760;
+}
+#font2
+{
+    font-size: 13px;
+    color: rgb(177, 174, 174);
+}
+.sectionD .text10
+{
+    color: #fff;
+    padding-left: 130px;
+    padding-top: 35px;
+    font-size: 15px;
+}
+.sectionD .text10 ul
+{
+    list-style: none;
+}
+.sectionD .text10 ul li
+{
+    padding-top:30px ;
+}
+.sectionD .text10 ul li:hover
+{
+    color: #1ed760;
+}
+#font3
+{
+    font-size: 13px;
+    color:rgb(177, 174, 174); ;
+}
+.box
+{
+    width: 250px;
+    height: 50px;
+    /* background-color: #fff; */
+    margin-left: 200px;
+    margin-top: 35px;
+    display: flex;
+    
+    
+}
+.box .insta
+{
+    height: 50px;
+    width: 50px; 
+    background-color: rgb(80, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+   
+    
+}
+.box .insta i
+{
+    font-size: 30px;
+    color: #fff;
+}
+.box .twit
+{
+    height: 50px;
+    width: 50px; 
+    background-color: rgb(80, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.box .twit i
+{
+    font-size: 30px;
+    color: #fff;
+}
+.box .face
+{
+    height: 50px;
+    width: 50px; 
+    background-color: rgb(80, 82, 82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.box .face i
+{
+    font-size: 30px;
+    color: #fff;
+}
+.box i:hover
+{
+    color: #1ed760;
+}
+.sectionD .top2
+{
+    height: 10vh;
+    color: #fff;
+   
+    
+}
+.sectionD .top2 .text11
+{
+    display: flex;
+    list-style: none;
+}
+.sectionD .top2 .text11 ul
+{
+    display: flex;
+    list-style: none;
+    color:  rgb(167, 167, 167);
+    /* font-weight: 900; */
+}
+.sectionD .top2 .text11 ul li
+{
+    padding-left: 25px;
+    font-size: 11px;
+   
+}
+.sectionD .top2 .text11 ul li:hover
+{
+    color: #1ed760;
+}
+.sectionD .top2 .logo
+{
+    display: flex;
+}
+.sectionD .top2 .text12
+{
+    /* padding-left: 550px; */
+    font-size: 12px;
+    color:  rgb(167, 167, 167);
+}
+.sectionD .top2 .text12 #copy
+{
+    padding-left:500px ;
+}
+.sectionD .top2 .text12 #global
+{
+    /* word-spacing: 100px; */
+    padding-left: 560px;
+}
+.sectionD .top2 .text12:hover
+{
+    color: #1ed760;
+
+}
+
